@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bigzip Salon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Bigzip Salon</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#booking" class="booking-btn">Book Now</a>
+    </nav>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Unleash Your <span>Beauty</span></h1>
+        <p>Step into Bigzip Salon for a luxurious experience. Hair, makeup, nails & more!</p>
+        <a href="#booking" class="cta-btn">Book Your Appointment</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="services" class="services">
+      <h2>Our Services</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="assets/haircut.png" alt="Haircut">
+          <h3>Haircut & Styling</h3>
+          <p>Trendy cuts, coloring, and styling by top professionals.</p>
+        </div>
+        <div class="card">
+          <img src="assets/makeup.png" alt="Makeup">
+          <h3>Makeup</h3>
+          <p>From natural looks to glam, we make you shine for any occasion.</p>
+        </div>
+        <div class="card">
+          <img src="assets/nails.png" alt="Nails">
+          <h3>Nail Art</h3>
+          <p>Creative manicures, pedicures, and nail art designs.</p>
+        </div>
+        <div class="card">
+          <img src="assets/spa.png" alt="Spa">
+          <h3>Spa & Relaxation</h3>
+          <p>Relaxing facials, massages, and skin treatments.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="team">
+      <h2>Meet Our Artists</h2>
+      <div class="team-container">
+        <div class="team-member">
+          <img src="assets/stylist1.jpg" alt="Stylist Anna">
+          <h3>Anna Lee</h3>
+          <p>Master Stylist</p>
+        </div>
+        <div class="team-member">
+          <img src="assets/stylist2.jpg" alt="Makeup Artist Jay">
+          <h3>Jay Kumar</h3>
+          <p>Makeup Expert</p>
+        </div>
+        <div class="team-member">
+          <img src="assets/stylist3.jpg" alt="Nail Artist Mia">
+          <h3>Mia Chen</h3>
+          <p>Nail Artist</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="assets/gallery1.jpg" alt="Gallery 1">
+        <img src="assets/gallery2.jpg" alt="Gallery 2">
+        <img src="assets/gallery3.jpg" alt="Gallery 3">
+        <img src="assets/gallery4.jpg" alt="Gallery 4">
+      </div>
+    </section>
+
+    <section id="booking" class="booking">
+      <h2>Book Your Appointment</h2>
+      <form id="bookingForm">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <select name="service" required>
+          <option value="">Select Service</option>
+          <option value="haircut">Haircut & Styling</option>
+          <option value="makeup">Makeup</option>
+          <option value="nails">Nail Art</option>
+          <option value="spa">Spa & Relaxation</option>
+        </select>
+        <input type="date" name="date" required>
+        <button type="submit" class="cta-btn">Book Now</button>
+      </form>
+      <div id="booking-success" class="booking-success"></div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-details">
+        <div>
+          <strong>Address:</strong> 123 Dream St, Cityville
+        </div>
+        <div>
+          <strong>Phone:</strong> +123-456-7890
+        </div>
+        <div>
+          <strong>Email:</strong> hello@bigzipsalon.com
+        </div>
+        <div>
+          <strong>Hours:</strong> Mon-Sat 9am - 8pm
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Bigzip Salon. All rights reserved.</p>
+    <div class="socials">
+      <a href="#"><img src="assets/instagram.svg" alt="Instagram"></a>
+      <a href="#"><img src="assets/facebook.svg" alt="Facebook"></a>
+      <a href="#"><img src="assets/tiktok.svg" alt="TikTok"></a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
